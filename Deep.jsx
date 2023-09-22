@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { AuthContext } from '../AuthContextProvider'
+import { useContext } from 'react'
+import { AuthContext } from './AuthContextProvider'
 
 const Deep = () => {
     const nekakavTekst = useContext (AuthContext)

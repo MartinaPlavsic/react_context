@@ -1,15 +1,16 @@
 import { useContext } from 'react'
 import { AuthContext } from './AuthContextProvider'
 
-function Deeper() {
+function SignInButton() {
     const [signedIn, setSignedIn] = useContext(AuthContext)
   return (
     <>
 
-    <div>Deeper is user signed in{String(signedIn)}</div>
+    <div>Deeper {String(signedIn)}</div>
+    <button onClick={()=> setSignedIn(prev => !prev)}>Change</button>
     </>
     
   )
 }
 
-export default Deeper
+export default SignInButton 

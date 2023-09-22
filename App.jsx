@@ -1,9 +1,10 @@
 
 import './App.css'
 
-import { AuthContextProvider } from '../AuthContextProvider'
+import  AuthContextProvider  from './AuthContextProvider'
+import Deep from './Deep'
+import SignInButton from './SignInButton'
 
-import {Deep}
 
 function App() {
   
